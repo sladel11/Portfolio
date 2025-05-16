@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Add script to the <head> of your page to load the embeddable map component -->
+  <script type="module" src="https://js.arcgis.com/embeddable-components/4.32/arcgis-embeddable-components.esm.js"></script>
   <meta charset="UTF-8">
   <title>Slade Laszewski | GIS & Data Analysis</title>
   <style>
@@ -226,11 +228,13 @@
   I digitized over 100 headstones and went through quality assurance of past students submissions.
 </p>
 
-<p>
-  The dashboard my team designed is an inventory and assessment of the physical condition, legibility, and historical attributes of each grave marker. 
-</p>
-
 <embed src="https://miami-oxford-cemetery-resources-miamioh.hub.arcgis.com/"/>
+
+<p>
+I also individually digitzed old sketchs of the cemetery to overlay them with drone aerial imagery and identified correct locations using the imagery along with student headstone ids.
+</p> 
+<!-- Add custom element to <body> of your page -->
+<arcgis-embedded-map style="height:600px;width:700px;" item-id="e37df2ce5b8143f4b6eb7ea10d19e8ba" theme="light" share-enabled portal-url="https://miamioh.maps.arcgis.com" ></arcgis-embedded-map>
 
 </div>
 
