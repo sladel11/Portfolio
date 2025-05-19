@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="module" src="https://js.arcgis.com/embeddable-components/4.32/arcgis-embeddable-components.esm.js"></script>
   <!-- Add script to the <head> of your page to load the embeddable map component -->
   <script type="module" src="https://js.arcgis.com/embeddable-components/4.32/arcgis-embeddable-components.esm.js"></script>
   <meta charset="UTF-8">
@@ -281,6 +282,13 @@ I individually digitized old sketchs of the cemetery to overlay them with drone 
     portal-url="https://miamioh.maps.arcgis.com">
   </arcgis-embedded-map>
 </div>
+
+<p>
+  I conducted parcel editing of cemetery plots by creating digital map boundaries to accurately reflect individual burial sites and lot divisions. This involved using GIS software to edit plot lines, ensure proper alignment with survey data, and maintain records for ownership and future planning.
+</p> 
+
+<!-- Add custom element to <body> of your page -->
+   <arcgis-embedded-map style="height:600px;width:700px;" item-id="d8c9bc004ec1457f9bed563dee751143" theme="dark" portal-url="https://miamioh.maps.arcgis.com" ></arcgis-embedded-map>
   
 </section>
 
