@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<script type="module" src="https://js.arcgis.com/embeddable-components/4.32/arcgis-embeddable-components.esm.js"></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="title">Slade Laszewski | GIS & Data Analysis</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">About Me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<!-- Main -->
+<div id="main">
+	<div class="inner">
+	  <h1>GIS and Cemeterys</h1>
+	  <section class="project" id="cemetery">
+		<h3>🪦 Oxford Cemetery Headstone Mapping Project</h3>
+	  <p>
+		This collaborative mapping effort, in  <strong>Advanced GIS (GEO 442/542)</strong>, documents and analyzes the condition of headstones in the <strong>Oxford Cemetery</strong> using high-resolution drone imagery, ArcGIS Online, and the Field Maps App.
+		I digitized over 100 headstones and went through quality assurance of past students submissions.
+	  </p>
+	  
+	  <embed src="https://miami-oxford-cemetery-resources-miamioh.hub.arcgis.com/"
+	  width="100%" 
+	  height="800px" 
+	  style="border: none;"/>
+	  
+	  <p>
+	  I individually digitized old sketchs of the cemetery to overlay them with drone aerial imagery and identified correct locations using the imagery along with student headstone ids.
+	  </p> 
+	  <!-- Add custom element to <body> of your page -->
+	  <div style="display: flex; justify-content: center; align-items: center;">
+		<arcgis-embedded-map 
+		  style="height:600px; width:700px;" 
+		  item-id="e37df2ce5b8143f4b6eb7ea10d19e8ba" 
+		  theme="light" 
+		  share-enabled 
+		  portal-url="https://miamioh.maps.arcgis.com">
+		</arcgis-embedded-map>
+	  </div>
+	  
+	  <p>
+		I conducted parcel editing of cemetery plots by creating digital map boundaries to accurately reflect individual burial sites and lot divisions. This involved using GIS software to edit plot lines, ensure proper alignment with survey data, and maintain records for ownership and future planning.
+	  </p> 
+	  
+	  <!-- Add custom element to <body> of your page -->
+		<div style="display: flex; justify-content: center; align-items: center;">
+		  <arcgis-embedded-map style="height:600px;width:700px;" item-id="d8c9bc004ec1457f9bed563dee751143" theme="dark" portal-url="https://miamioh.maps.arcgis.com" ></arcgis-embedded-map>
+		</div>
+	  
+	  </section>
+	</div>
+  </div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+				
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li>
+										<a href="https://github.com/sladel11" class="icon brands style2 fa-github">
+										  <span class="label">GitHub</span>
+										</a>
+									  </li>
+									  <li>
+										<a href="mailto:laszews@miamioh.edu" class="icon solid style2 fa-envelope">
+										  <span class="label">Email</span>
+										</a>
+									  </li>
+									  <li>
+										<a href="https://www.linkedin.com/in/slade-laszewski/" class="icon brands style2 fa-linkedin">
+										  <span class="label">LinkedIn</span>
+										</a>
+									  </li>		
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
